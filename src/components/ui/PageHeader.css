@@ -1,0 +1,28 @@
+.page-header {
+  background: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-line);
+  padding: 40px 0;
+  margin-bottom: 36px;
+}
+
+.page-header-inner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.page-header-title {
+  font-size: 30px;
+}
+
+.page-header-desc {
+  margin-top: 10px;
+  max-width: 560px;
+}
+
+@media (max-width: 720px) {
+  .page-header { padding: 28px 0; margin-bottom: 24px; }
+  .page-header-title { font-size: 24px; }
+}

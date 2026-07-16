@@ -1,0 +1,62 @@
+.bounty-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bounty-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-float);
+}
+
+.bounty-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bounty-status {
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.bounty-card-title {
+  font-size: 16.5px;
+  line-height: 1.4;
+}
+
+.bounty-card-meta {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 12.5px;
+}
+
+.bounty-card-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.bounty-card-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.bounty-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-line);
+}
+
+.bounty-card-budget {
+  font-family: var(--font-display);
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--color-coral);
+}

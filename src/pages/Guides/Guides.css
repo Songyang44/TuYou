@@ -1,0 +1,31 @@
+.guide-search-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.guide-keyword {
+  flex: 1;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-pill);
+  padding: 11px 18px;
+}
+
+.guide-sort {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-pill);
+  padding: 0 18px;
+  background: var(--color-surface);
+  font-size: 13px;
+  color: var(--color-ink);
+}
+
+.guide-result-count {
+  font-size: 13px;
+  margin: 8px 0 18px;
+}
+
+@media (max-width: 640px) {
+  .guide-search-bar { flex-direction: column; }
+}

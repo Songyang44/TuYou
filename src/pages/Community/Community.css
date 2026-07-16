@@ -1,0 +1,16 @@
+.community-masonry {
+  columns: 3 260px;
+  column-gap: 22px;
+}
+
+.community-masonry > * {
+  margin-bottom: 22px;
+}
+
+@media (max-width: 1080px) {
+  .community-masonry { columns: 2 240px; }
+}
+
+@media (max-width: 640px) {
+  .community-masonry { columns: 1; }
+}

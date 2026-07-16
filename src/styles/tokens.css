@@ -1,0 +1,61 @@
+:root {
+  /* ---------- 色彩体系：亮色 + 自然风光 ---------- */
+  --color-bg: #fbf9f3;
+  --color-bg-alt: #f3f0e6;
+  --color-surface: #ffffff;
+  --color-surface-tint: #f8f6ef;
+
+  --color-ink: #232a22;
+  --color-ink-soft: #5c6459;
+  --color-ink-faint: #90968a;
+
+  --color-forest: #2f5233;
+  --color-forest-deep: #1e3a22;
+  --color-forest-light: #6e8f5c;
+  --color-sage: #b7c9ab;
+
+  --color-sand: #e9ddc4;
+  --color-sand-deep: #d8c49f;
+
+  --color-sky: #6fa4c9;
+  --color-sky-deep: #3f7ea3;
+
+  --color-sunset: #e3a458;
+  --color-coral: #dd7359;
+
+  --color-line: #e8e3d5;
+  --color-line-strong: #d9d3c1;
+
+  --shadow-soft: 0 8px 24px rgba(35, 42, 34, 0.06);
+  --shadow-card: 0 14px 40px rgba(35, 42, 34, 0.08);
+  --shadow-float: 0 20px 60px rgba(35, 42, 34, 0.16);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  --font-display: 'Fraunces', 'Noto Serif SC', 'Songti SC', serif;
+  --font-body: 'Manrope', 'PingFang SC', 'Microsoft Yahei', sans-serif;
+
+  --nav-top-height: 72px;
+  --nav-side-width: 232px;
+  --nav-side-width-collapsed: 84px;
+  --mobile-tab-height: 64px;
+
+  --container-max: 1280px;
+}
+
+/* ---------- 渐变色板：用于占位头像 / 封面，避免使用真实图片模板感 ---------- */
+.swatch-sunrise { background: linear-gradient(135deg, #ffd9a3 0%, #ff9a63 55%, #ef7b56 100%); }
+.swatch-peach { background: linear-gradient(135deg, #ffe1d6 0%, #ffb199 60%, #f38b7d 100%); }
+.swatch-ocean { background: linear-gradient(135deg, #bfe3ee 0%, #6fa4c9 60%, #3f7ea3 100%); }
+.swatch-forest { background: linear-gradient(135deg, #cfe0bd 0%, #8bab6f 55%, #4c7440 100%); }
+.swatch-sakura { background: linear-gradient(135deg, #ffe3ea 0%, #ffb8c9 55%, #ef93ab 100%); }
+.swatch-terracotta { background: linear-gradient(135deg, #f3cfa8 0%, #dd9a63 55%, #b56a3c 100%); }
+.swatch-lavender { background: linear-gradient(135deg, #e6def5 0%, #b9a6e0 55%, #8d76c4 100%); }
+.swatch-blush { background: linear-gradient(135deg, #fbe2ec 0%, #f2b7cd 55%, #dd88a8 100%); }
+.swatch-glacier { background: linear-gradient(135deg, #dff1f2 0%, #a9d8dc 55%, #6cb0b8 100%); }
+.swatch-dune { background: linear-gradient(135deg, #f7e9c9 0%, #e9c98b 55%, #cf9f5a 100%); }
+.swatch-aurora { background: linear-gradient(135deg, #cdf5e0 0%, #86d9c4 45%, #4f9dc9 80%, #6a6fc9 100%); }
+.swatch-system { background: linear-gradient(135deg, #dfe4de 0%, #b7c2b2 100%); }
